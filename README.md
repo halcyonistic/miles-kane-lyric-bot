@@ -1,3 +1,3 @@
 # Miles Kane Lyric Bot
-Grab lyrics from Genius and tweet them.
+Tweet lyrics to various Miles Kane songs.
 (Very much a work in progress.)
