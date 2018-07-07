@@ -1,0 +1,29 @@
+{
+  "name": "miles-kane-lyric-bot",
+  "scripts": {
+  },
+  "env": {
+    "LANG": {
+      "required": true
+    },
+    "STORJ_EMAIL": {
+      "required": true
+    },
+    "STORJ_PASSWORD": {
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "storj"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
